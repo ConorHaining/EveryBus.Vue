@@ -48,7 +48,7 @@
       BusMap,
       RouteFilter
     },
-    data() {
+    data: function () {
       return {
         routes: ['-'],
         selectedRoute: null
