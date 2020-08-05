@@ -20,7 +20,9 @@ jobs:
           submodules: true
           
       - name: Build App
-        run: npm run build
+        run: |
+          npm install
+          npm run build
 
       - name: Build And Deploy
         id: builddeploy
