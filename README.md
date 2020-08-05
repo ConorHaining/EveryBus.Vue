@@ -1,13 +1,29 @@
-Vuejs basic webpack simple starter template
-=================
+# everybus
 
-This is a simple Vuejs starter using webpack-dev-server with hot reloading. Not mean for production.
+## Project setup
+```
+npm install
+```
 
-[https://github.com/vuejs-templates/webpack-simple](https://github.com/vuejs-templates/webpack-simple)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-There is a hidden assets folder on **src/assets** if you want to add content you have to use `wget` on Glich [console](https://glitch.com/edit/console.html)
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Glitch support thanks to 
+### Run your unit tests
+```
+npm run test:unit
+```
 
-[https://support.glitch.com/t/invalid-host-header-webpack-compiled-successfully/3639)](https://support.glitch.com/t/invalid-host-header-webpack-compiled-successfully/3639)
+### Lints and fixes files
+```
+npm run lint
+```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
